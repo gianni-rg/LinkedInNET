@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>Sparkle.LinkedInNET.Tests</AssemblyName>
+
+    <RootNamespace>Sparkle.LinkedInNET.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\BaseApiTests.cs" Link="BaseApiTests.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\CSharpGeneratorTests.cs" Link="CSharpGeneratorTests.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\FieldSelectorTests.cs" Link="FieldSelectorTests.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\FieldTests.cs" Link="FieldTests.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\LinkedInApiConfigurationTests.cs" Link="LinkedInApiConfigurationTests.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\OAuth2ApiTests.cs" Link="OAuth2ApiTests.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.Tests\XmlTests.cs" Link="XmlTests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\NET35.Sparkle.LinkedInNET.Tests\Files\company-updates.xml" Link="Files\company-updates.xml" />
+    <EmbeddedResource Include="..\NET35.Sparkle.LinkedInNET.Tests\Files\FullProfile.xml" Link="Files\FullProfile.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NETStandard2.Sparkle.LinkedInNET.ServiceDefinition\NETStandard2.Sparkle.LinkedInNET.ServiceDefinition.csproj" />
+    <ProjectReference Include="..\NETStandard2.Sparkle.LinkedInNET\NETStandard2.Sparkle.LinkedInNET.csproj" />
+  </ItemGroup>
+
+</Project>

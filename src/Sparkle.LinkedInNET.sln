@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET35.Sparkle.LinkedInNET", "NET35.Sparkle.LinkedInNET\NET35.Sparkle.LinkedInNET.csproj", "{452CAE7A-152B-40EF-8DD7-965854B1931C}"
 EndProject
@@ -29,6 +29,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET451.Sparkle.LinkedInNET", "NET451.Sparkle.LinkedInNET\NET451.Sparkle.LinkedInNET.csproj", "{080DE9CE-B826-49CA-855D-25AED27D488A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET45.Sparkle.LinkedInNET.Tests", "NET45.Sparkle.LinkedInNET.Tests\NET45.Sparkle.LinkedInNET.Tests.csproj", "{05A8FD90-27BC-4EEF-970F-20914AD9B987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETStandard2.Sparkle.LinkedInNET", "NETStandard2.Sparkle.LinkedInNET\NETStandard2.Sparkle.LinkedInNET.csproj", "{5BCFBCE4-5B22-481D-AF1F-1D91B44A2289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore2.Sparkle.LinkedInNET.Tests", "NETCore2.Sparkle.LinkedInNET.Tests\NETCore2.Sparkle.LinkedInNET.Tests.csproj", "{064556DD-6541-459F-947F-BC5C761B8C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETStandard2.Sparkle.LinkedInNET.ServiceDefinition", "NETStandard2.Sparkle.LinkedInNET.ServiceDefinition\NETStandard2.Sparkle.LinkedInNET.ServiceDefinition.csproj", "{081BD30F-F2A7-4C76-BEBD-1758E85AFD25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +70,18 @@ Global
 		{05A8FD90-27BC-4EEF-970F-20914AD9B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A8FD90-27BC-4EEF-970F-20914AD9B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A8FD90-27BC-4EEF-970F-20914AD9B987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCFBCE4-5B22-481D-AF1F-1D91B44A2289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCFBCE4-5B22-481D-AF1F-1D91B44A2289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCFBCE4-5B22-481D-AF1F-1D91B44A2289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCFBCE4-5B22-481D-AF1F-1D91B44A2289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064556DD-6541-459F-947F-BC5C761B8C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064556DD-6541-459F-947F-BC5C761B8C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064556DD-6541-459F-947F-BC5C761B8C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064556DD-6541-459F-947F-BC5C761B8C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081BD30F-F2A7-4C76-BEBD-1758E85AFD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081BD30F-F2A7-4C76-BEBD-1758E85AFD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081BD30F-F2A7-4C76-BEBD-1758E85AFD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081BD30F-F2A7-4C76-BEBD-1758E85AFD25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +94,11 @@ Global
 		{8680529C-5040-4799-AC12-6ABE541AB1A5} = {D6564F95-4467-467E-8C00-932C46CE8954}
 		{080DE9CE-B826-49CA-855D-25AED27D488A} = {D6564F95-4467-467E-8C00-932C46CE8954}
 		{05A8FD90-27BC-4EEF-970F-20914AD9B987} = {8D0D8676-86DB-4BFF-AB3D-96754919BBD8}
+		{5BCFBCE4-5B22-481D-AF1F-1D91B44A2289} = {D6564F95-4467-467E-8C00-932C46CE8954}
+		{064556DD-6541-459F-947F-BC5C761B8C8E} = {8D0D8676-86DB-4BFF-AB3D-96754919BBD8}
+		{081BD30F-F2A7-4C76-BEBD-1758E85AFD25} = {30B446E9-DAF4-4CF3-9B02-FF27A668B146}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA6AA3B7-A0B2-42B7-B155-305C593863DE}
 	EndGlobalSection
 EndGlobal

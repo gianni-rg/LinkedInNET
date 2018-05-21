@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Sparkle.LinkedInNET.ServiceDefinition</AssemblyName>
+    <RootNamespace>Sparkle.LinkedInNET.ServiceDefinition</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ApiGroup.cs" Link="ApiGroup.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ApiMethod.cs" Link="ApiMethod.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ApisRoot.cs" Link="ApisRoot.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\CSharpGenerator.cs" Link="CSharpGenerator.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\CSharpProperty.cs" Link="CSharpProperty.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\Field.cs" Link="Field.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\FieldName.cs" Link="FieldName.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\FieldSelector.cs" Link="FieldSelector.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ImportFieldSelectors.cs" Link="ImportFieldSelectors.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\NameTransformation.cs" Link="NameTransformation.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\Parameter.cs" Link="Parameter.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\QueryString.cs" Link="QueryString.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ReturnType.cs" Link="ReturnType.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ServiceDefinition.cs" Link="ServiceDefinition.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\ServiceDefinitionBuilder.cs" Link="ServiceDefinitionBuilder.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\TextWriterExtensions.cs" Link="TextWriterExtensions.cs" />
+    <Compile Include="..\NET35.Sparkle.LinkedInNET.ServiceDefinition\Tuple.cs" Link="Tuple.cs" />
+  </ItemGroup>
+
+</Project>
